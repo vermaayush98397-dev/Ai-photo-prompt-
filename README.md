@@ -1,3 +1,23 @@
+[
+  {
+    "title": "Cinematic Hero Entrance",
+    "prompt": "A cinematic scene showing a confident man making a dramatic entrance in a rugged old village alleyway..."
+  },
+  {
+    "title": "Foggy Portrait",
+    "prompt": "Foggy, grassy field on a moody morning, man draped in a black shawl, low-angle shot, cinematic lighting..."
+  },
+  {
+    "title": "Desert Shot",
+    "prompt": "A stylish man standing in a hazy desert landscape wearing black, cinematic lighting, golden hour glow..."
+  }
+
+
+
+
+
+
+
 ।# Ai-photo-prompt-
 <div class="prompt-card boys">
     <h3>Boys Cinematic Prompt</h3>
