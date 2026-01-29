@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Prompt Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🤖 AI Prompt Hub</h1>
+    <p>Best AI Photo & Text Prompts</p>
+</header>
+
+<nav>
+    <button onclick="filterPrompts('all')">All</button>
+    <button onclick="filterPrompts('boys')">Boys</button>
+    <button onclick="filterPrompts('girls')">Girls</button>
+    <button onclick="filterPrompts('festival')">Festival</button>
+</nav>
+
+<main>
+    <div class="prompt-card boys">
+        <h3>Boys Cinematic Prompt</h3>
+        <p>A stylish young man in cinematic lighting, 8K ultra realistic.</p>
+        <button onclick="copyPrompt(this)">Copy Prompt</button>
+    </div>
+
+    <div class="prompt-card girls">
+        <h3>Girls Portrait Prompt</h3>
+        <p>A beautiful girl in soft natural light, DSLR cinematic look.</p>
+        <button onclick="copyPrompt(this)">Copy Prompt</button>
+    </div>
+
+    <div class="prompt-card festival">
+        <h3>Festival Prompt</h3>
+        <p>Indian festival vibe, traditional outfit, warm lighting.</p>
+        <button onclick="copyPrompt(this)">Copy Prompt</button>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 AI Prompt Hub</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
